@@ -1,0 +1,89 @@
+{
+    "title": "What is an EDGE species",
+    "description": "",
+    "author": "OneZoom",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.6,
+        "wait": 1000
+    },
+    "tourstops": [
+        {
+            "comment-ott": "Humans",
+            "ott": "770315",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "What is an EDGE species",
+                "window_text": "This is a visualization of the tree of life: all species know to science should exist somewhere on this huge tree. To explain what an EDGE species is, we’ll start by finding something familiar that isn’t an EDGE species: ourselves!"
+            }
+        },
+        {
+            "comment-ott": "Apes",
+            "ott": "386191",
+            "wait": 5000,
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Lots of our relatives are globally endangered",
+                "window_text": "In this tree, we show species that are threatened with extinction as red leaves. If we zoom out you can see that a huge number of our close relatives are red: they are Globally Endangered."
+            }
+        },
+        {
+            "comment-ott": "Turtles",
+            "ott": "639666",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Many parts of the tree contain globally endangered species",
+                "window_text": "It’s not just our close relatives. Many other parts of the tree of life are full of globally endangered species, for example the turtles."
+            }
+        },
+        {
+            "comment-ott": "Vertebrates",
+            "ott": "801601",
+            "template_data": {
+                "title": "How should we prioritise conservation of endangered species?",
+                "window_text": "With so many globally endangered species, and limited resources for conservation, which species should we be most worried about?"
+            }
+        },
+        {
+            "comment-ott": "Platypus",
+            "ott": "962377",
+            "template_data": {
+                "title": "Some species are particularly distinct",
+                "window_text": "Some species, like the duck billed platypus, have special features not seen elsewhere on the tree of life. What is it about species like the duck billed playtpus that makes them so special?"
+            }
+        },
+        {
+            "comment-ott": "Monotremes - close up of internal node",
+            "ott": "962396",
+            "qs_opts": "into_node=max",
+            "template_data": {
+                "title": "Distinctness comes from years of separate evolution",
+                "window_text": "The playpus has no close living relatives, it’s all that’s left on the end of a branch that’s been evolving for 60 million years."
+            }
+        },
+        {
+            "comment-ott": "Monotremes",
+            "ott": "962396",
+            "template_data": {
+                "title": "Evolutionary Distinct species have few close relatives",
+                "window_text": "Even when we look at its nearest relatives, there aren’t many of them and that makes the playpus even more special. We say it is Evolutionary Distinct, but fortunately it is not Globally Endangered"
+            }
+        },
+        {
+            "comment-ott": "Chinese alligator - NB needs a nicer photo e.g. from https://commons.wikimedia.org/wiki/Category:Alligator_sinensis",
+            "ott": "953151",
+            "template_data": {
+                "title": "EDGE species are both distinct and endangered",
+                "window_text": "Some species are both Evolutionary Distinct (ED) and Globally Endangered (GE). These EDGE species are both special and at risk of extinction."
+            }
+        },
+        {
+            "comment-ott": "pangolins",
+            "ott": "644252",
+            "template_data": {
+                "title": "A classic example of a set of EDGE species",
+                "window_text": "Another example is the Panglins, "
+            }
+        }
+    ]
+}
