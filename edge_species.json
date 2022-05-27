@@ -9,7 +9,7 @@
     },
     "tourstops": [
         {
-            "comment-ott": "Humans",
+            "identifier": "humans",
             "ott": "770315",
             "template_data": {
                 "visible-transition_in": true,
@@ -18,7 +18,7 @@
             }
         },
         {
-            "comment-ott": "Apes",
+            "identifier": "apes",
             "ott": "386191",
             "wait": 5000,
             "template_data": {
@@ -28,7 +28,7 @@
             }
         },
         {
-            "comment-ott": "Turtles",
+            "identifier": "turtles",
             "ott": "639666",
             "template_data": {
                 "visible-transition_in": true,
@@ -37,7 +37,7 @@
             }
         },
         {
-            "comment-ott": "Vertebrates",
+            "identifier": "vertebrates",
             "ott": "801601",
             "template_data": {
                 "title": "How should we prioritise conservation of endangered species?",
@@ -45,7 +45,7 @@
             }
         },
         {
-            "comment-ott": "Platypus",
+            "identifier": "platypus",
             "ott": "962377",
             "template_data": {
                 "title": "Some species are particularly distinct",
@@ -53,7 +53,7 @@
             }
         },
         {
-            "comment-ott": "Monotremes - close up of internal node",
+            "identifier": "monotremes_close_up",
             "ott": "962396",
             "qs_opts": "into_node=max",
             "template_data": {
@@ -62,7 +62,7 @@
             }
         },
         {
-            "comment-ott": "Monotremes",
+            "identifier": "monotremes",
             "ott": "962396",
             "template_data": {
                 "title": "Evolutionary Distinct species have few close relatives",
@@ -70,15 +70,16 @@
             }
         },
         {
-            "comment-ott": "Chinese alligator - NB needs a nicer photo e.g. from https://commons.wikimedia.org/wiki/Category:Alligator_sinensis",
+            "identifier": "chinese_alligator",
             "ott": "953151",
+            "comment": "needs a nicer photo e.g. from https://commons.wikimedia.org/wiki/Category:Alligator_sinensis",
             "template_data": {
                 "title": "EDGE species are both distinct and endangered",
                 "window_text": "Some species are both Evolutionary Distinct (ED) and Globally Endangered (GE). These EDGE species are both special and at risk of extinction."
             }
         },
         {
-            "comment-ott": "pangolins",
+            "identifier": "pangolins",
             "ott": "644252",
             "template_data": {
                 "title": "A classic example of a set of EDGE species",
