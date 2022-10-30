@@ -1,0 +1,53 @@
+{
+    "title": "Species with superpowers",
+    "description": "",
+    "author": "OneZoom",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.6,
+        "wait": 1000
+    },
+    "tourstops": [
+        {
+            "identifier": "Immortality",
+            "ott": "566397",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Immortality: the immortal jellyfish",
+                "window_text": "The Immortal Jellyfish (Turritopsis dohrnii) is biologically immortal. It can still die, for example if it's eaten! but its chance of death does not increase with old age because it can return to its juvenile state and be reborn.",
+                "video": "https://www.youtube.com/watch?v=ayOmAJwCMlM"
+            }
+        },
+        {
+            "identifier": "Resistance to cancer",
+            "ott": "1048195",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Resistance to cancer: the naked mole rat",
+                "window_text": "Naked mole rats live together in social colonies with a queen, rather like ants. They have a remarkable resistance to cancer including a gene that prevents uncontroled cell division.",
+                "video": "vimeo.com/user187674839/",
+                "comment": "We need to have comments in the data - this video is a test video I happened to have of the species so uploaded to Vimeo to try it."
+            }
+        },
+        {
+            "identifier": "Resurrection",
+            "ott": "286369",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Resurrection: the dinosaur plant",
+                "window_text": "The dinosaur plant (Selaginella lepidophylla), also known as the resurrection plant has the ability to be revived with water even after a long period of being total dried out and apparently dead.",
+                "video": "https://en.wikipedia.org/wiki/Selaginella_lepidophylla#/media/File:Rose_of_Jericho.gif",
+            }
+        },
+        {
+            "identifier": "Regeneration",
+            "ott": "984726",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Regeneration: the axolotl",
+                "window_text": "This aquatic salamander has extraorinary powers to regenerate after injury. It can regrow lost limbs and even internal organs.",
+                "image": "https://en.wikipedia.org/wiki/Axolotl#/media/File:Ambystoma_mexicanum_1zz.jpg",
+            }
+        }
+    ]
+}
