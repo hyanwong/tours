@@ -56,6 +56,19 @@
                     "https://commons.wikimedia.org/wiki/File:Ambystoma_mexicanum_1zz.jpg"
                 ]
             }
+        },
+        {
+            "identifier": "songthrush",
+            "ott": "1082345",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Noisiness: Song Thrush",
+                "window_text": "Not really a superpower, but they are pretty noisy.",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Turdus_philomelos_-_Western_Springs_Lakeside_Park.jpg",
+                    "https://commons.wikimedia.org/wiki/File:Turdus_philomelos.ogg"
+                ]
+            }
         }
     ]
 }
