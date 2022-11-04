@@ -5,7 +5,7 @@
 
     "tourstop_shared": {
         "fly_in_speed": 0.6,
-        "stop_wait": 1000
+        "stop_wait": 6000
     },
     "tourstops": [
         {
