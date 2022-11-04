@@ -5,7 +5,7 @@
 
     "tourstop_shared": {
         "fly_in_speed": 0.6,
-        "wait": 1000
+        "stop_wait": 1000
     },
     "tourstops": [
         {
@@ -20,7 +20,7 @@
         {
             "identifier": "apes",
             "ott": "386191",
-            "wait": 5000,
+            "stop_wait": 5000,
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Lots of our relatives are globally endangered",
