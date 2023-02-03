@@ -11,3 +11,9 @@ Once uploaded you can trigger a tour manually in the javascript console with:
 ```
 onezoom.controller.tour_start('/tour/data.html/edge_species')
 ```
+
+Or trigger it on load (although be warned that autoplaying will not trigger before a click):
+
+```
+/life?tour=/tour/data.html/superpowers
+```
