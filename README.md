@@ -30,8 +30,8 @@ Or trigger it on load (although be warned that autoplaying will not trigger befo
 
 ## Other documentation
 
-HTML tour syntax (what the JSON is converted to): https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/tour/Tour.js
-Extended HTML tour syntax in the relevant handler plugins: https://github.com/OneZoom/OZtree/tree/main/OZprivate/rawJS/OZTreeModule/src/tour/handler
-Pinpoints describing locations on the tree: https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/navigation/pinpoint.js
-URLs, including all attributes that can be set in the querystring: https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/navigation/state.js
-Additional documentation on highlights: https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/projection/highlight/highlight.js
+* HTML tour syntax (what the JSON is converted to): https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/tour/Tour.js
+* Extended HTML tour syntax in the relevant handler plugins: https://github.com/OneZoom/OZtree/tree/main/OZprivate/rawJS/OZTreeModule/src/tour/handler
+* Pinpoints describing locations on the tree: https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/navigation/pinpoint.js
+* URLs, including all attributes that can be set in the querystring: https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/navigation/state.js
+* Additional documentation on highlights: https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/projection/highlight/highlight.js
