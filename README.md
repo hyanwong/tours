@@ -28,6 +28,18 @@ Or trigger it on load (although be warned that autoplaying will not trigger befo
 /life?tour=/tour/data.html/superpowers
 ```
 
+## Creating a user to add tours via.
+
+See the [Creating auth users & groups section of README.markdown](https://github.com/OneZoom/OZtree#creating-auth-users--groups)
+
+Summary being:
+
+* Specify an admin password on web2py startup with ``-a pass``
+* Go to /appadmin/insert/db/auth_user
+* Enter at least a first & last name, username & password
+
+Then use the username / password with the curl command above.
+
 ## Other documentation
 
 * HTML tour syntax (what the JSON is converted to): https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/tour/Tour.js
