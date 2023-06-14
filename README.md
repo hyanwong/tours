@@ -10,8 +10,20 @@ Insert a tour into the OneZoom database with:
 
 ```
 curl -X PUT -H "Content-Type: application/json" --user admin \
-    http://.../tour/data.json/edge_species \
+    http://localhost:8000/tour/data.json/edge_species \
     -d @edge_species.json
+```
+
+Fetch it back again with:
+
+```
+curl http://localhost:8000/tour/data.json/edge_species
+```
+
+Or as HTML with:
+
+```
+curl http://localhost:8000/tour/data.html/edge_species
 ```
 
 ## Playing a tour
