@@ -1,7 +1,8 @@
 {
     "title": "Species with superpowers",
-    "description": "",
+    "description": "Species with amazing abilities",
     "author": "OneZoom",
+    "image_url": "imgsrc:99:32373704",
 
     "tourstop_shared": {
         "fly_in_speed": 0.6,
