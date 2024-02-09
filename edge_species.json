@@ -86,6 +86,31 @@
                 "title": "A classic example of a set of EDGE species",
                 "window_text": "Another example is the Panglins, there are only 8 living species, most of which are endangered and all are threatened with extinction. They are all that's left of a branch of the tree of life that's been evolving for 65 million years."
             }
+        },
+        {
+            "identifier": "pangolins_carnivorans",
+            "ott": "@_ancestor=44565=644252",
+            "comment": "this should be the common ancestor between two OTTs",
+            "template_data": {
+                "title": "The 'sister' to the Pangolins",
+                "window_text": "To put this in perspective, let's look at where, the pangolins split their next closest group of relateive - this is sometimes called the sister group"
+            }
+        },
+        {
+            "identifier": "carnivorans",
+            "ott": "44565",
+            "template_data": {
+                "title": "The carnivorans",
+                "window_text": "The sister group to the pangolins is the carnivorians whcih has over 280 species whilst the pangolins have only 8, despite evolving for the same amount of time."
+            }
+        },
+        {
+            "identifier": "long_beaked_echidnas",
+            "ott": "565577",
+            "template_data": {
+                "title": "The EDGE of Existance Programme",
+                "window_text": "The EDGE of Existance Programme at the Zoological Socieity of London focuses on conservation of EDGE species, like the panglins. "
+            }
         }
     ]
 }
