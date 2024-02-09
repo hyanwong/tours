@@ -88,7 +88,7 @@
         },
         {
             "identifier": "pangolins_carnivorans",
-            "ott": "44565+644252",
+            "ott": "@_ancestor=44565=644252",
             "comment": "this should be the common ancestor between two OTTs",
             "template_data": {
                 "title": "The 'sister' to the Pangolins",
