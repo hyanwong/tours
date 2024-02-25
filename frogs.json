@@ -28,7 +28,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "A Tale of tails",
-                "window_text": "No fully grown adult frogs or toads have a tail. The so called 'tailed frogs' don't really have a tail either. Male tailed frogs have something which looks like a tail, but it's actually used in reproduction. (Image of a tailed frog below by Mokele - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11586685).",
+                "window_text": "No fully grown adult frogs or toads have a tail. Even the so called 'tailed frogs' don't really have a tail. Male tailed frogs have something which looks like a tail, but it's actually used in reproduction. (Image of a tailed frog below by Mokele - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11586685).",
                 "media": [
                     "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ascaphus_truei_web.jpg"
                 ]
@@ -53,9 +53,6 @@
                 "visible-transition_in": true,
                 "title": "Frog or Toad?",
                 "window_text": "We typically call anurans 'toads' if they have a warty apparance but frogs and toads are not clearly separated into two different branches of the tree of life. So, the pumpkin toadlet isn't really a toad any more than it's a frog.",
-                "media": [
-                    "https://commons.wikimedia.org/wiki/File:Rose_of_Jericho.gif"
-                ]
             }
         },
         {
@@ -64,7 +61,7 @@
             "template_data": {
                 "visible-transition_in": false,
                 "title": "True toads",
-                "window_text": "If any branch of the tree of life could represent toads it would be this the 'true toads' scientifically known as Bufonidae. Most of the things are are referred to as toads, but not all..."
+                "window_text": "If any branch of the tree of life could represent toads it would be this the 'true toads' scientifically known as Bufonidae. Most of the species in this branch are referred to as toads, but not all..."
             }
         },
         {
@@ -81,8 +78,8 @@
             "ott": "884664",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Harlequin frogs",
-                "window_text": "Sadly, most of these beautiful harlequin frogs are threatened with extinction because of infectious disease caused chytrid fungi. Pictured here is the skin of an infected harlequin frog, the arrows point to the 'zoospores' through which in chytrid fungi is spread. Scientists have brought many wild populations of harlequin frogs into captivity to protect them from the chytrid disease and prevent total extinction of the species.",
+                "title": "Chytrid fungi",
+                "window_text": "Sadly, most of these beautiful harlequin frogs are threatened with extinction because of an infectious disease caused by chytrid fungi. Pictured here is the skin of an infected harlequin frog, the arrows point to the 'zoospores' through which in chytrid fungi is spread. Scientists have brought many wild populations of harlequin frogs into captivity to protect them from the chytrid disease and prevent total extinction of the species.",
                 "media": [
                     "https://upload.wikimedia.org/wikipedia/commons/4/4b/Chytridiomycosis2.jpg"
                 ]
