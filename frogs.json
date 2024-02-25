@@ -1,0 +1,101 @@
+{
+    "title": "Frogs and Toads",
+    "description": "Leap into the world of these amazing amphibians, the frogs and toads",
+    "author": "OneZoom",
+    "image_url": "imgsrc:99:26853372",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.6,
+        "stop_wait": 6000
+    },
+    "tourstops": [
+        {
+            "identifier": "Amazing amphibians",
+            "ott": "544595",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Amazing Amphibians",
+                "window_text": "More than three quarters of amphibian species are frogs and toads, the rest are caecilians, salamanders and newts. The scientific name for frogs and toads is Anura which means 'without tail'. ",
+                "comment": "This is a public domain image",
+                "media": [
+                    "https://upload.wikimedia.org/wikipedia/commons/0/01/Anoures.jpg"
+                ]
+            }
+        },
+        {
+            "identifier": "A Tale of tails",
+            "ott": "1013114",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "A Tale of tails",
+                "window_text": "No fully grown adult frogs or toads have a tail. The so called 'tailed frogs' don't really have a tail either. Male tailed frogs have something which looks like a tail, but it's actually used in reproduction. (Image of a tailed frog below by Mokele - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11586685).",
+                "media": [
+                    "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ascaphus_truei_web.jpg"
+                ]
+            }
+        },
+        {
+            "identifier": "Bright colours",
+            "ott": "719427",
+            "template_data": {
+                "visible-transition_in": false,
+                "title": "Bright colours",
+                "window_text": "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea. The pumpkin toadlet is an example of this. They also have a flourescent skeleton which can be seen under UV light, it's not clear if this is used to deter pradators or to attract a mate. (Video of a pumkin toadlet with UV light by Goutte, S., Mason, M.J., Antoniazzi, M.M. et al. (2019) - CC BY 4.0 via. Wikimedia commons.",
+                "media": [
+                    "https://upload.wikimedia.org/wikipedia/commons/f/f5/Intense_bone_fluorescence_reveals_hidden_patterns_in_pumpkin_toadlets_-_video_1_-_41598_2019_41959_MOESM2_ESM.webm"
+                ]
+            }
+        },
+        {
+            "identifier": "Frog or toad?",
+            "ott": "719427",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Frog or Toad?",
+                "window_text": "We typically call anurans 'toads' if they have a warty apparance but frogs and toads are not clearly separated into two different branches of the tree of life. So, the pumpkin toadlet isn't really a toad any more than it's a frog.",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Rose_of_Jericho.gif"
+                ]
+            }
+        },
+        {
+            "identifier": "True toads",
+            "ott": "984726",
+            "template_data": {
+                "visible-transition_in": false,
+                "title": "True toads",
+                "window_text": "If any branch of the tree of life could represent toads it would be this the 'true toads' scientifically known as Bufonidae. Most of the things are are referred to as toads, but not all..."
+            }
+        },
+        {
+            "identifier": "Harlequin frogs",
+            "ott": "884664",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Harlequin frogs",
+                "window_text": "For example the harlequin frogs are within the true toads, so it's probably best not to think too much about wether something is a frog or a toad!"
+            }
+        }
+        {
+            "identifier": "Chytrid fungi",
+            "ott": "884664",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Harlequin frogs",
+                "window_text": "Sadly, most of these beautiful harlequin frogs are threatened with extinction because of infectious disease caused chytrid fungi. Pictured here is the skin of an infected harlequin frog, the arrows point to the 'zoospores' through which in chytrid fungi is spread. Scientists have brought many wild populations of harlequin frogs into captivity to protect them from the chytrid disease and prevent total extinction of the species.",
+                "media": [
+                    "https://upload.wikimedia.org/wikipedia/commons/4/4b/Chytridiomycosis2.jpg"
+                ]
+            }
+        }
+        {
+            "identifier": "Find your frog",
+            "ott": "544595",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Find your frog",
+                "window_text": "With over 7000 species of frogs and toads, there's a lot more to see. try exploring the tree of life for yourself to find out more."
+            }
+        }
+    ]
+}
