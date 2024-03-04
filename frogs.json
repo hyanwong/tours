@@ -52,7 +52,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Frog or Toad?",
-                "window_text": "We typically call anurans 'toads' if they have a warty apparance but frogs and toads are not clearly separated into two different branches of the tree of life. So, the pumpkin toadlet isn't really a toad any more than it's a frog.",
+                "window_text": "We typically call anurans 'toads' if they have a warty apparance but frogs and toads are not clearly separated into two different branches of the tree of life. So, the pumpkin toadlet isn't really a toad any more than it's a frog."
             }
         },
         {
@@ -72,7 +72,7 @@
                 "title": "Harlequin frogs",
                 "window_text": "For example the harlequin frogs are within the true toads, so it's probably best not to think too much about wether something is a frog or a toad!"
             }
-        }
+        },
         {
             "identifier": "Chytrid fungi",
             "ott": "884664",
@@ -84,7 +84,7 @@
                     "https://upload.wikimedia.org/wikipedia/commons/4/4b/Chytridiomycosis2.jpg"
                 ]
             }
-        }
+        },
         {
             "identifier": "Find your frog",
             "ott": "544595",
