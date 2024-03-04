@@ -7,13 +7,16 @@
     "tourstop_shared": {
         "fly_in_speed": 0.6,
         "stop_wait": 10000,
+        "template_data": {
+            "visible-transition_in": true,
+            "visible-transition_in_wait": true
+        }
     },
     "tourstops": [
         {
             "identifier": "humans",
             "ott": "770315",
             "template_data": {
-                "visible-transition_in": true,
                 "title": "What is an EDGE species",
                 "window_text": "This is a visualization of the tree of life: all species know to science should exist somewhere on this huge tree. To explain what an EDGE species is, we’ll start by finding something familiar that isn’t an EDGE species: ourselves!"
             }
@@ -23,7 +26,6 @@
             "ott": "386191",
             "stop_wait": 5000,
             "template_data": {
-                "visible-transition_in": true,
                 "title": "Lots of our relatives are globally endangered",
                 "window_text": "In this tree, we show species that are threatened with extinction as red leaves. If we zoom out you can see that a huge number of our close relatives are red: they are Globally Endangered."
             }
@@ -32,7 +34,6 @@
             "identifier": "turtles",
             "ott": "639666",
             "template_data": {
-                "visible-transition_in": true,
                 "title": "Many parts of the tree contain globally endangered species",
                 "window_text": "It’s not just our close relatives. Many other parts of the tree of life are full of globally endangered species, for example the turtles."
             }
