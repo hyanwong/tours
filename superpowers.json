@@ -1,8 +1,8 @@
 {
-    "title": "Species with superpowers",
-    "description": "Species with amazing abilities",
+    "title": "Superpowers",
+    "description": "From resurrection to immortality, the amazing things nature can do that we can't.",
     "author": "OneZoom",
-    "image_url": "imgsrc:99:32373704",
+    "image_url": "imgsrc:99:31918127",
 
     "tourstop_shared": {
         "fly_in_speed": 0.6,
@@ -26,11 +26,11 @@
             "ott": "1048195",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Resistance to cancer: the naked mole rat",
+                "title": "Eternal youth and resistance to cancer",
                 "window_text": "Naked mole rats live together in social colonies with a queen, rather like ants. They have a remarkable resistance to cancer including a gene that prevents uncontroled cell division.",
                 "comment": "We need to have comments in the data - this video is a test video I happened to have of the species so uploaded to Vimeo to try it.",
                 "media": [
-                    "https://player.vimeo.com/video/765478959"
+                    "https://www.youtube.com/embed/1QZSoAW730k"
                 ]
             }
         },
@@ -39,7 +39,7 @@
             "ott": "286369",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Resurrection: the dinosaur plant",
+                "title": "Resurrection",
                 "window_text": "The dinosaur plant (Selaginella lepidophylla), also known as the resurrection plant has the ability to be revived with water even after a long period of being total dried out and apparently dead.",
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Rose_of_Jericho.gif"
@@ -51,7 +51,7 @@
             "ott": "984726",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Regeneration: the axolotl",
+                "title": "Regeneration",
                 "window_text": "This aquatic salamander has extraorinary powers to regenerate after injury. It can regrow lost limbs and even internal organs.",
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Ambystoma_mexicanum_1zz.jpg"
