@@ -38,11 +38,11 @@
         {
             "identifier": "Bright colours",
             "ott": "719427",
+            "stop_wait": 100,
             "template_data": {
                 "visible-transition_in": false,
                 "title": "Bright colours",
-                "window_text": "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea.",
-                "stop_wait": 0
+                "window_text": "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea."
             }
         },
         {
@@ -81,7 +81,10 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Harlequin frogs",
-                "window_text": "For example the harlequin frogs are within the true toads, so it's probably best not to think too much about wether something is a frog or a toad!"
+                "window_text": "For example the harlequin frogs are within the true toads, so it's probably best not to think too much about wether something is a frog or a toad!",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Atelopus_limosus_male,_highland_color_form_(1).jpg"
+                ]
             }
         },
         {
