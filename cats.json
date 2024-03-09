@@ -1,0 +1,105 @@
+{
+    "title": "Cats",
+    "description": "Meet the domesticated cat's wild cousins, great and small.",
+    "author": "OneZoom",
+    "image_url": "imgsrc:99:33154695",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.8,
+        "stop_wait": 15000
+    },
+    "tourstops": [
+        {
+            "identifier": "Domesticated and wild cats",
+            "ott": "@_ancestor=563166=563163",
+            "transition_in":"leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Domesticated and wild cats",
+                "window_text": "The cat was domesticated around 9500 years ago, its closest living relative is the European wildcat. They share a common ancestor around two million years ago.",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Cat_August_2010-4.jpg"
+                ]
+            }
+        },
+        {
+            "identifier": "wildcats",
+            "ott": "@_ancestor=563166=563163",
+            "transition_in":"leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "European wildcat",
+                "window_text": "The European wildcat remains widespread. The populations living in Scotland are considered a subspecies known as the Scottish wildcat. Unfortunately Scottish wildcats are threatend by interbreeding with domesticated cats.",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Distribution_of_the_European_wildcat.png"
+                ]
+            }
+        },
+        {
+            "identifier": "Smallest cat",
+            "ott": "507541",
+            "stop_wait": 100,
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Smallest cat",
+                "window_text": "The smallest living species of cat is..."
+            }
+        },
+        {
+            "identifier": "Rusty-spotted cat",
+            "ott": "507541",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Rusty-spotted cat",
+                "window_text": "The smallest species of cat is the rusty-spotted cat.",
+                "stop_wait": 0,
+                "media": [
+                    "https://www.youtube.com/embed/W86cTIoMv2U"
+                ]
+            }
+        },
+        {
+            "identifier": "Largest cat",
+            "ott": "42314",
+            "stop_wait": 100,
+            "template_data": {
+                "visible-transition_in": false,
+                "title": "Largest cat",
+                "window_text": "The largest living species of cat is..."
+            }
+        },
+        {
+            "identifier": "Tiger",
+            "ott": "42314",
+            "template_data": {
+                "visible-transition_in": false,
+                "title": "Tiger",
+                "window_text": "The largest living species of cat is the tiger. Specifically, the Amur tiger (also known as the Siberian tiger), which is a subspecies.",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Amur_(or_Siberian)_tigers_(Panthera_tigris_altaica)_(48907981646).jpg"
+                ]
+            }
+        },
+        {
+            "identifier": "Roar",
+            "ott": "@_ancestor=532117=42314",
+            "template_data": {
+                "visible-transition_in": false,
+                "title": "Roaring",
+                "window_text": "Of all the cats, only the lion, tiger, jaguar and leopard have the ability to roar. Though no other cats can roar, many of them can purr, and not only the domesticated species!",
+                "media": [
+                    "https://www.youtube.com/embed/zgxUh6RYo7Y"
+                ]
+            }
+        },
+        {
+            "identifier": "Cats",
+            "ott": "563159",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Cat ancestor",
+                "window_text": "Overall there are around 40 species of cat and they share a common ancestor about 14 million years ago. There is plenty more to explore."
+            }
+        }
+    ]
+}
