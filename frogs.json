@@ -1,17 +1,18 @@
 {
     "title": "Frogs and Toads",
-    "description": "Leap into the world of these amazing amphibians, the frogs and toads",
+    "description": "Leap into the world of these amazing amphibians: the frogs and toads",
     "author": "OneZoom",
     "image_url": "imgsrc:99:26853372",
 
     "tourstop_shared": {
-        "fly_in_speed": 0.6,
-        "stop_wait": 6000
+        "fly_in_speed": 0.8,
+        "stop_wait": 15000
     },
     "tourstops": [
         {
             "identifier": "Amazing amphibians",
             "ott": "544595",
+            "transition_in":"leap",
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Amazing Amphibians",
@@ -28,7 +29,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "A Tale of tails",
-                "window_text": "No fully grown adult frogs or toads have a tail. Even the so called 'tailed frogs' don't really have a tail. Male tailed frogs have something which looks like a tail, but it's actually used in reproduction. (Image of a tailed frog below by Mokele - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11586685).",
+                "window_text": "No fully grown adult frogs or toads have a tail. Even the so called 'tailed frogs' don't really have a tail. Male tailed frogs have something which looks like a tail, but actually it is used for reproduction, not for swimming!",
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Ascaphus_truei_web.jpg"
                 ]
@@ -40,7 +41,17 @@
             "template_data": {
                 "visible-transition_in": false,
                 "title": "Bright colours",
-                "window_text": "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea. The pumpkin toadlet is an example of this. They also have a flourescent skeleton which can be seen under UV light, it's not clear if this is used to deter pradators or to attract a mate. (Video of a pumkin toadlet with UV light by Goutte, S., Mason, M.J., Antoniazzi, M.M. et al. (2019) - CC BY 4.0 via. Wikimedia commons.",
+                "window_text": "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea.",
+                "stop_wait": 0
+            }
+        },
+        {
+            "identifier": "Pumpkin toadlet",
+            "ott": "719427",
+            "template_data": {
+                "visible-transition_in": false,
+                "title": "Pumpkin toadlet",
+                "window_text": "The pumpkin toadlet is an example of a poisonous anuran with brightly coloured skin. They also have a flourescent skeleton which can be seen under UV light, take a look at the video below. It's not clear whether their UV reflectivity is used to attract a mate or used like their bright skin to deter predators.",
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Intense_bone_fluorescence_reveals_hidden_patterns_in_pumpkin_toadlets_-_video_1_-_41598_2019_41959_MOESM2_ESM.webm"
                 ]
@@ -48,7 +59,7 @@
         },
         {
             "identifier": "Frog or toad?",
-            "ott": "719427",
+            "ott": "719424",
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Frog or Toad?",
@@ -57,7 +68,7 @@
         },
         {
             "identifier": "True toads",
-            "ott": "984726",
+            "ott": "889358",
             "template_data": {
                 "visible-transition_in": false,
                 "title": "True toads",
@@ -87,11 +98,11 @@
         },
         {
             "identifier": "Find your frog",
-            "ott": "544595",
+            "ott": "991547",
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Find your frog",
-                "window_text": "With over 7000 species of frogs and toads, there's a lot more to see. try exploring the tree of life for yourself to find out more."
+                "window_text": "With over 7000 species of frogs and toads, there's a lot more to see. Try exploring the tree of life for yourself to find out more."
             }
         }
     ]
