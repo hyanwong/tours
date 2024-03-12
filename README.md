@@ -4,9 +4,15 @@ Tour JSON documents that can be inserted into an instance's database.
 
 The JSON format is described in https://github.com/OneZoom/OZtree/blob/main/controllers/tour.py
 
-## Inserting a tour
+## Uploading tours
 
-Insert a tour into the OneZoom database with:
+You can insert a single tour or multiple tours into a OneZoom instance with the ``upload.py`` script:
+
+```
+./upload.py http://localhost:8000/ *.json
+```
+
+You can also use CURL directly:
 
 ```
 curl -X PUT -H "Content-Type: application/json" --user admin \
