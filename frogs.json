@@ -36,24 +36,17 @@
             }
         },
         {
-            "identifier": "Bright colours",
-            "ott": "719427",
-            "stop_wait": 100,
-            "template_data": {
-                "visible-transition_in": false,
-                "title": "Bright colours",
-                "window_text": "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea."
-            }
-        },
-        {
             "identifier": "Pumpkin toadlet",
             "ott": "719427",
             "template_data": {
-                "visible-transition_in": false,
+                "visible-transition_in": true,
                 "title": "Pumpkin toadlet",
-                "window_text": "The pumpkin toadlet is an example of a poisonous anuran with brightly coloured skin. They also have a flourescent skeleton which can be seen under UV light, take a look at the video below. It's not clear whether their UV reflectivity is used to attract a mate or used like their bright skin to deter predators.",
+                "window_text": [
+                    { "visible-transition_in": true, "text": "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea."},
+                    { "visible-active_wait": true, "text": "The pumpkin toadlet is an example of a poisonous anuran with brightly coloured skin. They also have a flourescent skeleton which can be seen under UV light, take a look at the video below. It's not clear whether their UV reflectivity is used to attract a mate or used like their bright skin to deter predators." }
+                ],
                 "media": [
-                    "https://commons.wikimedia.org/wiki/File:Intense_bone_fluorescence_reveals_hidden_patterns_in_pumpkin_toadlets_-_video_1_-_41598_2019_41959_MOESM2_ESM.webm"
+                    { "visible-active_wait": true, "url": "https://commons.wikimedia.org/wiki/File:Intense_bone_fluorescence_reveals_hidden_patterns_in_pumpkin_toadlets_-_video_1_-_41598_2019_41959_MOESM2_ESM.webm" }
                 ]
             }
         },
