@@ -47,3 +47,15 @@ for file_path in sys.argv[2:]:
             raise ValueError("Upload failed")
         out = json.load(response)
         print("Tour ID %d" % out['id'])
+
+    request = urllib.request.Request("%s/tour/data.html/%s" % (
+        http_base,
+        os.path.splitext(os.path.basename(file_path))[0],
+    ), method='GET')
+    try:
+        with urllib.request.urlopen(request, bytes, context=ctx) as response:
+            if response.status != 200:
+                print("Tour rendered as HTML")
+    except urllib.error.HTTPError as e:
+        print("Tour cannot be rendered by data.html, look at OneZoom error logs: %s" % e, file=sys.stderr)
+        sys.exit(1)
