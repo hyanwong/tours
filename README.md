@@ -32,6 +32,20 @@ Or as HTML with:
 curl http://localhost:8000/tour/data.html/edge_species
 ```
 
+## Adding bespoke images / audio to tours
+
+1. Add the source image to this repository, in a directory with the same name as your tour.
+   Note that it's filename will be used as an alt tag (with _ replaced with " "), so a descriptive name is sensible.
+2. Next to the image, add a ``.md`` file which at least contains a link to your image and the source of the image, e.g:
+
+```md
+[![Various frogs and toads](Various_frogs_and_toads.jpeg)](https://commons.wikimedia.org/wiki/File:Anoures.jpg)
+
+* *source*: https://commons.wikimedia.org/wiki/File:Anoures.jpg
+```
+
+Commit and push to github. You can now refer to it in a tour with ``"frogs/Various_frogs_and_toads.jpeg"``, e.g.
+
 ## Playing a tour
 
 Once uploaded you can trigger a tour manually in the javascript console with:
