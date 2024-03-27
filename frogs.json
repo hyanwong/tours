@@ -10,22 +10,23 @@
     },
     "tourstops": [
         {
-            "identifier": "Amazing amphibians",
+            "identifier": "Frogs and Toads",
             "ott": "544595",
             "transition_in":"leap",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Amazing Amphibians",
+                "title": "Frogs and Toads Tour",
                 "window_text": "More than three quarters of amphibian species are frogs and toads, the rest are caecilians, salamanders and newts. The scientific name for frogs and toads is Anura which means 'without tail'. ",
                 "comment": "This is a public domain image",
                 "media": [
-                    "frogs/Various_frogs_and_toads.jpeg"
+                    "frogs/Various_frogs_and_toads_trimmed.jpeg"
                 ]
             }
         },
         {
             "identifier": "A Tale of tails",
             "ott": "1013114",
+            "stop_wait": 20000,
             "template_data": {
                 "visible-transition_in": true,
                 "title": "A Tale of tails",
@@ -83,6 +84,7 @@
         {
             "identifier": "Chytrid fungi",
             "ott": "884664",
+            "stop_wait": 25000,
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Chytrid fungi",
@@ -99,6 +101,9 @@
                 "visible-transition_in": true,
                 "title": "Find your frog",
                 "window_text": "With over 7000 species of frogs and toads, there's a lot more to see. Try exploring the tree of life for yourself to find out more."
+                "media": [
+                    "frogs/Various_frogs_and_toads_trimmed.jpeg"
+                ]
             }
         }
     ]
