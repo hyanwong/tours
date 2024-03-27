@@ -100,7 +100,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Find your frog",
-                "window_text": "With over 7000 species of frogs and toads, there's a lot more to see. Try exploring the tree of life for yourself to find out more."
+                "window_text": "With over 7000 species of frogs and toads, there's a lot more to see. Try exploring the tree of life for yourself to find out more.",
                 "media": [
                     "frogs/Various_frogs_and_toads_trimmed.jpeg"
                 ]
