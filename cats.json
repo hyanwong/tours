@@ -10,12 +10,12 @@
     },
     "tourstops": [
         {
-            "identifier": "Domesticated and wild cats",
+            "identifier": "Cats tour",
             "ott": "@_ancestor=563166=563163",
             "transition_in":"leap",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Domesticated and wild cats",
+                "title": "Cats tour",
                 "window_text": "The cat was domesticated around 9500 years ago, its closest living relative is the European wildcat. They share a common ancestor around two million years ago.",
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Cat_August_2010-4.jpg"
@@ -38,23 +38,15 @@
         {
             "identifier": "Smallest cat",
             "ott": "507541",
-            "stop_wait": 100,
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Smallest cat",
-                "window_text": "The smallest living species of cat is..."
-            }
-        },
-        {
-            "identifier": "Rusty-spotted cat",
-            "ott": "507541",
-            "template_data": {
-                "visible-transition_in": true,
-                "title": "Rusty-spotted cat",
-                "window_text": "The smallest species of cat is the rusty-spotted cat.",
-                "stop_wait": 0,
+                "window_text": [
+                    { "visible-transition_in": true, "text": "The smallest living species of cat is..."},
+                    { "visible-active_wait": true, "text": "The smallest species of cat is the rusty-spotted cat." }
+                ],
                 "media": [
-                    "https://www.youtube.com/embed/W86cTIoMv2U"
+                    { "visible-active_wait": true, "url": "https://www.youtube.com/embed/W86cTIoMv2U" }
                 ]
             }
         },
