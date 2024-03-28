@@ -53,22 +53,15 @@
         {
             "identifier": "Largest cat",
             "ott": "42314",
-            "stop_wait": 100,
             "template_data": {
                 "visible-transition_in": false,
                 "title": "Largest cat",
-                "window_text": "The largest living species of cat is..."
-            }
-        },
-        {
-            "identifier": "Tiger",
-            "ott": "42314",
-            "template_data": {
-                "visible-transition_in": false,
-                "title": "Tiger",
-                "window_text": "The largest living species of cat is the tiger. Specifically, the Amur tiger (also known as the Siberian tiger), which is a subspecies.",
+                "window_text": [
+                    { "visible-transition_in": true, "text": "The largest living species of cat is..."},
+                    { "visible-active_wait": true, "text": "The largest living species of cat is the tiger. Specifically, the Amur tiger (also known as the Siberian tiger), which is a subspecies." }
+                ],
                 "media": [
-                    "https://commons.wikimedia.org/wiki/File:Amur_(or_Siberian)_tigers_(Panthera_tigris_altaica)_(48907981646).jpg"
+                    { "visible-active_wait": true, "url": "https://commons.wikimedia.org/wiki/File:Amur_(or_Siberian)_tigers_(Panthera_tigris_altaica)_(48907981646).jpg" }
                 ]
             }
         },
