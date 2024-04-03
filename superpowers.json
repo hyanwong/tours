@@ -59,11 +59,25 @@
             }
         },
         {
-            "identifier": "songthrush",
+            "identifier": "Mind control",
             "ott": "1082345",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Noisiness: Song Thrush",
+                "title": "Mind control",
+                "window_text": "zombie-ant fungus
+                Ophiocordyceps unilateralis",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Turdus_philomelos_-_Western_Springs_Lakeside_Park.jpg",
+                    "https://commons.wikimedia.org/wiki/File:Turdus_philomelos.ogg"
+                ]
+            }
+        },
+        {
+            "identifier": "Invisibility",
+            "ott": "1082345",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Invisibility",
                 "window_text": "Not really a superpower, but they are pretty noisy.",
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Turdus_philomelos_-_Western_Springs_Lakeside_Park.jpg",
@@ -71,5 +85,6 @@
                 ]
             }
         }
+
     ]
 }
