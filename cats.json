@@ -83,12 +83,8 @@
             "ott": "563159",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Cat ancestor",
-                "window_text": "Overall there are around 40 species of cat and they share a common ancestor about 14 million years ago. Below is a skull of the extinct cat species Proailurus lemanensis from 25-30 million years ago, it's thought to be an ancestor to living cats.",
-                "media": [
-                    "https://commons.wikimedia.org/wiki/File:Proailurus_lemanensis_skull_378458.jpg"
-                ]
-                
+                "title": "All the cats",
+                "window_text": "Overall there are around 40 species of cat and they share a common ancestor about 14 million years ago. There's a lot more to explore"
             }
         }
     ]
