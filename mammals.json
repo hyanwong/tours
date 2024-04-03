@@ -1,0 +1,54 @@
+{
+    "title": "Mammals",
+    "description": "A tour of mamamals divided into their five main groups",
+    "author": "OneZoom",
+    "image_url": "imgsrc:3:-27123592",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.8,
+        "stop_wait": 15000,
+        "qs_opts": "highlight=fan:rgb(130,130,247)@=962396&highlight=path:rgb(130,130,247)@=244265@=962396
+        &highlight=fan:rgb(126,198,199)@=746703&highlight=path:rgb(126,198,199)@_ancestor=746703=847764@=746703
+        &highlight=fan:rgb(162,252,144)@=847764&highlight=path:rgb(162,252,144)@_ancestor=746703=847764@=847764
+        &highlight=fan:rgb(235,134,131)@Boreoeutheria&highlight=path:rgb(235,134,131)@=683263@Boreoeutheria
+        &highlight=fan:rgb(187,105,195)@=16033&highlight=path:rgb(187,105,195)@=229558@=16033"
+    },
+    "tourstops": [
+        {
+            "identifier": "Mammals",
+            "ott": "244265",
+            "transition_in":"leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Mammals tour",
+                "window_text": "We'll show you the five main groups of mammals based on their evolutionary history. You can see the groups highlighted in different colours so you know what's coming, but you may be surprised by some of the species we'll find in each!"
+            }
+        },
+        {
+            "identifier": "Playtpus",
+            "ott": "962377",
+            "transition_in":"leap",
+            "stop_wait": 30000,
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Playtpus ",
+                "window_text": "The platypus, a very strange mammals",
+                "media": [
+                    "https://www.youtube.com/embed/b-gEx-yFz1c?si=o5QZA0R1fgIX2Aec&amp;clip=Ugkx6aA9qw4ZVYkxtanrCLOaIF_Qy4BvASoI&amp;clipt=EObsBRiY8wc"
+                ]
+            }
+        },
+        {
+            "identifier": "Monotremes",
+            "ott": "962396",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Monotremes",
+                "window_text": "The platypus and the echidnas are together known as monotremes. All monotremes reproduce by laying eggs, newly hatched young are called 'puggles' and are nourished with their mother's milk. Monotremes also have a bill which is actually an evolved snout and only superficially similar to that of a bird, they can sense electrical signals through their bill, an ability the platypus uses for hunting quatic prey in merky waters.",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Ornithorhynchus_anatinus_-_nest_with_eggs_-_MUSE.JPG"
+                ]
+            }
+        }
+    ]
+}
