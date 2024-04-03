@@ -80,11 +80,11 @@
         },
         {
             "identifier": "Cats",
-            "ott": "563159",
+            "ott": "@_ancestor=563159=397138",
             "template_data": {
                 "visible-transition_in": true,
                 "title": "All the cats",
-                "window_text": "Overall there are around 40 species of cat and they share a common ancestor about 14 million years ago. There's a lot more to explore"
+                "window_text": "Overall there are around 40 species of cat and they share a common ancestor about 14 million years ago. Their cloest relatives are the Hyenas. There's a lot more to explore!"
             }
         }
     ]
