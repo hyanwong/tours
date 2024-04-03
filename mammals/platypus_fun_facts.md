@@ -1,4 +1,4 @@
-[![Platypus fun facts](platypus_fun_facts.jpeg)]
+[![platypus fun facts](platypus_fun_facts.jpeg)]
 
 * source of platypus spur image*: https://commons.wikimedia.org/w/index.php?curid=2444913
 * Spur image: the original uploader was Elonnon at English Wikipedia. - Transferred from en.wikipedia to Commons., CC BY-SA 3.0, 
