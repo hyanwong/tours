@@ -6,8 +6,7 @@
 
     "tourstop_shared": {
         "fly_in_speed": 0.8,
-        "stop_wait": 15000,
-        "qs_opts": "highlight=fan:rgb(130,130,247)@=563159"
+        "stop_wait": 15000
     },
     "tourstops": [
         {
@@ -81,10 +80,11 @@
         {
             "identifier": "Cats",
             "ott": "@_ancestor=563159=397138",
+            "qs_opts": "highlight=fan:rgb(130,130,247)@=563159",
             "template_data": {
                 "visible-transition_in": true,
                 "title": "All the cats",
-                "window_text": "Overall there are around 40 species of cat and they share a common ancestor about 14 million years ago. Their cloest relatives are the Hyenas. There's a lot more to explore!"
+                "window_text": "Overall there are around 40 species of cat and they share a common ancestor about 14 million years ago. Their closest relatives are the Hyenas. There's a lot more to explore!"
             }
         }
     ]
