@@ -79,3 +79,7 @@ Then use the username / password with the curl command above.
 * Pinpoints describing locations on the tree: https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/navigation/pinpoint.js
 * URLs, including all attributes that can be set in the querystring: https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/navigation/state.js
 * Additional documentation on highlights: https://github.com/OneZoom/OZtree/blob/main/OZprivate/rawJS/OZTreeModule/src/projection/highlight/highlight.js
+
+## Licensing of tours material for reuse.
+
+* Except in the case where individual images are explicitly labelled with licenses for reuse, permission is not currently granted to reuse tours content for any purpose. We are open to being contacted with requests for permission to reuse.
