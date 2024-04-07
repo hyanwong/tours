@@ -6,7 +6,7 @@
 
     "tourstop_shared": {
         "fly_in_speed": 0.8,
-        "stop_wait": 15000,
+        "stop_wait": 25000,
         "qs_opts": "highlight=fan:rgb(130,130,247)@=962396&highlight=path:rgb(130,130,247)@=244265@=962396
         &highlight=fan:rgb(126,198,199)@=746703&highlight=path:rgb(126,198,199)@_ancestor=746703=847764@=746703
         &highlight=fan:rgb(162,252,144)@=847764&highlight=path:rgb(162,252,144)@_ancestor=746703=847764@=847764
@@ -21,7 +21,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Mammals tour",
-                "window_text": "We'll show you the five main groups of mammals based on their evolutionary history. You can see the groups highlighted in different colours so you know what's coming, but you may be surprised by some of the species we'll find in each!"
+                "window_text": "We'll show you the five main groups of mammals based on their evolutionary history. You can see the groups highlighted in different colours so you know what's coming, but we hope you'll still find some suprises here!"
             }
         },
         {
@@ -32,7 +32,6 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Playtpus ",
-                "window_text": "The platypus, a very strange mammals",
                 "media": [
                     "https://www.youtube.com/embed/b-gEx-yFz1c?si=o5QZA0R1fgIX2Aec&amp;clip=Ugkx6aA9qw4ZVYkxtanrCLOaIF_Qy4BvASoI&amp;clipt=EObsBRiY8wc"
                 ]
@@ -47,6 +46,66 @@
                 "window_text": "The platypus and the echidnas are together known as monotremes, it's the first of five groups. Here are some fun facts about the monotremes.",
                 "media": [
                     "mammals/platypus_fun_facts.jpeg"
+                ]
+            }
+        },
+        {
+            "identifier": "Marsupials",
+            "ott": "16033",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Marsupials",
+                "window_text": "The next of our groups is the marsupials, there are around 300 species.  Marsupials lack a placenta to nourish their young, which are called joeys. After just 10.7 - 38 days of development (depending on the species), joeys are born, fully blind, and must crawl to their mother's pouch which functions like an external woumb. From within the pouch young will feed on their mother's milk to continue their development.",
+                "media": [
+                    "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_female_with_joey_Esk_Valley_2.jpg"
+                ]
+            }
+        },
+        {
+            "identifier": "Tasmanian Devil",
+            "ott": "948469",
+            "template_data": {
+                "visible-transition_in": false,
+                "title": "Tasmanian Devil",
+                "window_text": ["The Tasmanian Devil is the largest marsupial carnivore since the extinction of the Tasmanian tiger in 1936.","Tasmanian Devils are sadly plagued by Devil Facial Tumour Disease. This is an unusual form of cancer that can be trasmitted as an infection from one Devil to another. Devil Facial Tumour Disease is the biggest reason why the Tasmanian Devil species is at risk of extinction though road traffic and occasionally domestic dogs also have a negative impact on them."],
+                "media": [
+                    "mammals/Tasmanian_Devil.jpg"
+                ]
+            }
+        },
+        {
+            "identifier": "Placental mammals",
+            "ott": "683263",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Placental mammals",
+                "window_text": 
+                "The vast majority of mammals species, and all three of the remaining groups we wanted to show you, are placental mammals. Unlike the marsupials and monotremes, the placental mammals give birth to much more developed young. This is because they are nourished by the mother through a placenta whilst inside the woumb."
+            }
+        },
+        {
+            "identifier": "Young animals",
+            "ott": "702522",
+            "template_data": {
+                "visible-transition_in": false,
+                "title": "Young animals",
+                "window_text": "For example the young of Thompson's Gazelle can be on their feet within minutes of birth. They need to be otherwise they would be very vulnerable to predators.",
+                "media": [
+                    "https://www.youtube.com/embed/w4421AI_7CA?si=LQSeUthgNZVpvq1d"
+                ]
+            }
+        },
+        {
+            "identifier": "Moving continents",
+            "ott": "683263",
+            "stop_wait": 120000,
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Moving continents",
+                "window_text": ["The three groups of placental mammals are associated with different parts of the globe: South America, Africa and the North.",
+                { "visible-active_wait": true, "text": "The evolutionary history of the groups started to diverge around 90 million years ago at the same time as these continents were drifting apart. Below you can see what our planet looked like at that time and the regions where the three groups originated." }],
+                "media": [
+                    { "visible-active_wait": true, "url": "mammals/continents.jpeg" }
                 ]
             }
         }
