@@ -43,8 +43,8 @@
                 "visible-transition_in": true,
                 "title": "Pumpkin toadlet",
                 "window_text": [
-                    { "visible-transition_in": true, "text": "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea."},
-                    { "visible-active_wait": true, "text": "The pumpkin toadlet is an example of a poisonous anuran with brightly coloured skin. They also have a flourescent skeleton which can be seen under UV light, take a look at the video below. It's not clear whether their UV reflectivity is used to attract a mate or used like their bright skin to deter predators." }
+                    "Many frogs and toads are poisonous and have bright colours to warn anyone that to try and eat them would be a bad idea. The pumpkin toadlet is an example of a poisonous anuran with brightly coloured skin.",
+                    { "visible-active_wait": true, "text": "Pumpkin toadlets also have a flourescent skeleton which can be seen under UV light, take a look at the video below. It's not clear whether their UV reflectivity is used to attract a mate or used like their bright skin to deter predators." }
                 ],
                 "media": [
                     { "visible-active_wait": true, "url": "https://commons.wikimedia.org/wiki/File:Intense_bone_fluorescence_reveals_hidden_patterns_in_pumpkin_toadlets_-_video_1_-_41598_2019_41959_MOESM2_ESM.webm" }
@@ -75,7 +75,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Harlequin frogs",
-                "window_text": "For example the harlequin frogs are within the true toads, so it's probably best not to think too much about wether something is a frog or a toad!",
+                "window_text": "For example the harlequin frogs are within the true toads, so it's probably best not to think too much about whether something is a frog or a toad!",
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Atelopus_limosus_male,_highland_color_form_(1).jpg"
                 ]
@@ -88,7 +88,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Chytrid fungi, a threat to frogs",
-                "window_text": "Sadly, most of these beautiful harlequin frogs are threatened with extinction because of an infectious disease caused by chytrid fungi. Pictured here is the skin of an infected harlequin frog, the arrows point to the 'zoospores' through which in chytrid fungi is spread. Scientists have brought many wild populations of harlequin frogs into captivity to protect them from the chytrid disease and prevent total extinction of the species.",
+                "window_text": "Sadly, most of these beautiful harlequin frogs, as well as many other frog and toad species, are threatened with extinction because of an infectious disease caused by chytrid fungi. Pictured here is the skin of an infected harlequin frog, the arrows point to the 'zoospores' through which in chytrid fungi is spread. Scientists have brought many wild populations of harlequin frogs into captivity to protect them from the chytrid disease and prevent total extinction of the species.",
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Chytridiomycosis2.jpg"
                 ]
