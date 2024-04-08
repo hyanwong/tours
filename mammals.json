@@ -9,8 +9,8 @@
         "stop_wait": 25000,
         "qs_opts": "highlight=fan:rgb(130,130,247)@=962396&highlight=path:rgb(130,130,247)@=244265@=962396
         &highlight=fan:rgb(126,198,199)@=746703&highlight=path:rgb(126,198,199)@_ancestor=746703=847764@=746703
-        &highlight=fan:rgb(162,252,144)@=847764&highlight=path:rgb(162,252,144)@_ancestor=746703=847764@=847764
-        &highlight=fan:rgb(235,134,131)@Boreoeutheria&highlight=path:rgb(235,134,131)@=683263@Boreoeutheria
+        &highlight=fan:rgb(235,134,131)@=847764&highlight=path:rgb(235,134,131)@_ancestor=746703=847764@=847764
+        &highlight=fan:rgb(162,252,144)@Boreoeutheria&highlight=path:rgb(162,252,144)@=683263@Boreoeutheria
         &highlight=fan:rgb(187,105,195)@=16033&highlight=path:rgb(187,105,195)@=229558@=16033"
     },
     "tourstops": [
@@ -21,7 +21,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Mammals tour",
-            "window_text": "We’ll show you the five main groups of mammals based on their evolutionary history. We’ve highlighted their branches in different colours so you know what's coming, but we hope you’ll still find some surprises here!"
+            "window_text": ["Mammals can be divided into five main groups, based on their evolutionary history. These are the monotremes, the marsupials, and 3 groups of placental mammals.","We’ve highlighted these branches in different colours so you know what's coming, but we hope you’ll still find some surprises!"]
             }
         },
         {
@@ -43,7 +43,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Monotremes",
-                "window_text": "The platypus and the echidnas are together known as monotremes, it's the first of five groups. Unlike all other mammals, they lay eggs, rather than give birth to live young. Here are some more fun facts about them.",
+                "window_text": "The platypus and the echidnas are together known as monotremes. Monotremes are the first of our five groups. Unlike all other mammals, they lay eggs, rather than give birth to live young. Here are some more fun facts about them.",
                 "media": [
                     "mammals/platypus_fun_facts.jpeg"
                 ]
@@ -67,7 +67,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Tasmanian devil",
-                "window_text": ["The Tasmanian devil is the largest marsupial carnivore since the extinction of the Tasmanian tiger in 1936.","Sadly, Tasmanian devils are sadly plagued by devil facial tumour disease. This is an unusual form of cancer that can be trasmitted as an infection from one devil to another.","Devil facial tumour disease is the biggest reason why the Tasmanian devil species is at risk of extinction, although road traffic and occasionally domestic dogs also have an impact."],
+                "window_text": ["The Tasmanian devil is the largest marsupial carnivore since the extinction of the Tasmanian tiger in 1936.","Sadly, Tasmanian devils are plagued by devil facial tumour disease. This is an unusual form of cancer that can be trasmitted as an infection from one devil to another.","Devil facial tumour disease is the biggest reason why the Tasmanian devil species is at risk of extinction, although road traffic and occasionally domestic dogs also have an impact."],
                 "media": [
                     "mammals/Tasmanian_Devil.jpg"
                 ]
@@ -102,7 +102,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Why three groups?",
-                "window_text": ["The placental mammals form three groups. There's a fascinating reason for this, and it's about how continents moved in the past.",
+                "window_text": ["Why do the placental mammals fall into 3 natural groups? There's a fascinating answer, and it's about how continents moved in the past.",
                 { "visible-active_wait": true, "text": "The three groups are associated with South America, Africa and the Northern hemisphere. Scientists have found that the groups started to diverge around 90 million years ago, at the same time as these landmasses were drifting apart. Below you can see what our planet looked like at that time, and the regions where the three groups originated." }],
                 "media": [
                     { "visible-active_wait": true, "url": "mammals/continents.jpeg" }
