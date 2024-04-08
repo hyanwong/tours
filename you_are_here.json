@@ -1,0 +1,100 @@
+{
+    "title": "You are here",
+    "description": "A tour of your close relatives on the tree of life",
+    "author": "OneZoom",
+    "image_url": "imgsrc:99:27252520",
+
+    "tourstop_shared": {
+        "fly_in_speed": 0.8,
+        "stop_wait": 25000
+    },
+    "tourstops": [
+        {
+            "identifier": "Our family",
+            "ott": "770311",
+            "transition_in":"leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Our family",
+                "window_text": ["This is our family, the great apes, known as Hominids. We are humans and the other great apes are all our cousins. We all share an ancestor - an extinct species, like a grandparent who is no longer with us."]
+            }
+        },
+        {
+            "identifier": "Fossils",
+            "ott": "770311",
+            "transition_in":"leap",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Fossils",
+                "window_text": ["On the OneZoom tree we don't currently show fossils, only living species. Living species are not our ancestors. Below you can see some fossil skulls of extinct species of great ape. They will mostly be old counsins rather than direct ancestors but they can still tell a lot about our evolutionary history."],
+                "media": ["https://commons.wikimedia.org/wiki/File:Fossil_hominids.jpg"]
+            }
+        },
+        {
+            "identifier": "Mammals",
+            "ott": "244265",
+            "transition_in":"fly",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Mammals",
+                "window_text": ["The great apes are part of a much bigger group, the mammals. ",{ "visible-active_wait": true, "text": "There are over 5000 living species of mammal and they share a common ancestor about 180 million years ago. Here is an restoration showing what an ancient extinct mammal 'Juramaia' might have looked like."}
+                    ],
+                "media": [{ "visible-active_wait": true, "url":"https://commons.wikimedia.org/wiki/File:Juramaia_NT.jpg"}]
+            }
+        },
+        {
+            "identifier": "Lungfish",
+            "ott": "4940726",
+            "transition_in":"fly",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Lungfish",
+                "window_text": ["We're more closely related to some fish than others. ",{ "visible-active_wait": true, "text": "Our closest fish relatives are the lungfish. It would be tempting to think that lungs evolved here but actually the first lungs appeared much earlier. The evolution of the lung is a more complicated story that we'll save for another tour."}
+                    ]
+            }
+        },
+        {
+            "identifier": "African Lungfish",
+            "ott": "199334",
+            "transition_in":"fly",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "African Lungfish",
+                "media": [
+                    { "visible-active_wait": true, "url": "https://www.youtube.com/embed/dgXuuMlZRqs" }
+                ]
+            }
+        },
+        {
+            "identifier": "All animals",
+            "ott": "691846",
+            "transition_in":"fly",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "All animals",
+                "window_text": ["If there are 5000 mammal species, how many animal species do you think there are?",{ "visible-active_wait": true, "text": "Over 1.4 million, so the mammals are about a third of 1% of all species of animal."}
+                ]
+            }
+        },
+        {
+            "identifier": "Sponges",
+            "ott": "67819",
+            "transition_in":"fly",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Sponges",
+                "window_text": "There are even more different species of sponge than there are mammal!"
+            }
+        },
+        {
+            "identifier": "Complete tree",
+            "ott": "93302",
+            "transition_in":"fly",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Complete tree",
+                "window_text": ["The complete tree of all known life on earth includes a lot more than just animals!  There are plants, fungi, bacteria, and a host of other wierd things that don't fall into any of those groups." , { "visible-active_wait": true, "text": "It would take a person's entire working life just to spend two and a half minutes looking at each species."}]
+            }
+        }
+    ]
+}
