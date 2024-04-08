@@ -21,17 +21,17 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Mammals tour",
-                "window_text": "We'll show you the five main groups of mammals based on their evolutionary history. You can see the groups highlighted in different colours so you know what's coming, but we hope you'll still find some suprises here!"
+            "window_text": "We’ll show you the five main groups of mammals based on their evolutionary history. We’ve highlighted their branches in different colours so you know what's coming, but we hope you’ll still find some surprises here!"
             }
         },
         {
-            "identifier": "Playtpus",
+            "identifier": "Platypus",
             "ott": "962377",
             "transition_in":"leap",
             "stop_wait": 30000,
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Playtpus ",
+                "title": "Platypus ",
                 "media": [
                     "https://www.youtube.com/embed/b-gEx-yFz1c?si=o5QZA0R1fgIX2Aec&amp;clip=Ugkx6aA9qw4ZVYkxtanrCLOaIF_Qy4BvASoI&amp;clipt=EObsBRiY8wc"
                 ]
@@ -43,7 +43,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Monotremes",
-                "window_text": "The platypus and the echidnas are together known as monotremes, it's the first of five groups. Here are some fun facts about the monotremes.",
+                "window_text": "The platypus and the echidnas are together known as monotremes, it's the first of five groups. Unlike all other mammals, they lay eggs, rather than give birth to live young. Here are some more fun facts about them.",
                 "media": [
                     "mammals/platypus_fun_facts.jpeg"
                 ]
@@ -55,19 +55,19 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Marsupials",
-                "window_text": "The next of our groups is the marsupials, there are around 300 species.  Marsupials lack a placenta to nourish their young, which are called joeys. After just 10.7 - 38 days of development (depending on the species), joeys are born, fully blind, and must crawl to their mother's pouch which functions like an external woumb. From within the pouch young will feed on their mother's milk to continue their development.",
+                "window_text": ["The next group is the marsupials: around 300 species.","Although marsupials give birth to live young, they lack a true placenta, so the young, called joeys, are born very early (after 10.7 - 38 days, depending on the species).","Newborn joeys are blind, and crawl to their mother's pouch, which acts like an external womb. In the pouch, the tiny joey drinks its mother's milk until it's mature enough to feed for itself."],
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Forester_kangaroo_(Macropus_giganteus_tasmaniensis)_female_with_joey_Esk_Valley_2.jpg"
                 ]
             }
         },
         {
-            "identifier": "Tasmanian Devil",
+            "identifier": "Tasmanian devil",
             "ott": "948469",
             "template_data": {
-                "visible-transition_in": false,
-                "title": "Tasmanian Devil",
-                "window_text": ["The Tasmanian Devil is the largest marsupial carnivore since the extinction of the Tasmanian tiger in 1936.","Tasmanian Devils are sadly plagued by Devil Facial Tumour Disease. This is an unusual form of cancer that can be trasmitted as an infection from one Devil to another. Devil Facial Tumour Disease is the biggest reason why the Tasmanian Devil species is at risk of extinction though road traffic and occasionally domestic dogs also have a negative impact on them."],
+                "visible-transition_in": true,
+                "title": "Tasmanian devil",
+                "window_text": ["The Tasmanian devil is the largest marsupial carnivore since the extinction of the Tasmanian tiger in 1936.","Sadly, Tasmanian devils are sadly plagued by devil facial tumour disease. This is an unusual form of cancer that can be trasmitted as an infection from one devil to another.","Devil facial tumour disease is the biggest reason why the Tasmanian devil species is at risk of extinction, although road traffic and occasionally domestic dogs also have an impact."],
                 "media": [
                     "mammals/Tasmanian_Devil.jpg"
                 ]
@@ -80,30 +80,30 @@
                 "visible-transition_in": true,
                 "title": "Placental mammals",
                 "window_text": 
-                "The vast majority of mammals species, and all three of the remaining groups we wanted to show you, are placental mammals. Unlike the marsupials and monotremes, the placental mammals give birth to much more developed young. This is because they are nourished by the mother through a placenta whilst inside the woumb."
+                "The vast majority of mammal species, and all three of our remaining groups, are the placental mammals. Unlike marsupials, placental mammals develop for much longer inside the womb. This is because they are nourished by their mother through a placenta."
             }
         },
         {
-            "identifier": "Young animals",
+            "identifier": "Newborn placental mammals",
             "ott": "702522",
             "template_data": {
-                "visible-transition_in": false,
-                "title": "Young animals",
-                "window_text": "For example the young of Thompson's Gazelle can be on their feet within minutes of birth. They need to be otherwise they would be very vulnerable to predators.",
+                "visible-transition_in": true,
+                "title": "Newborn placental mammals",
+                "window_text": "For example the young of Thompson's Gazelle can be on their feet within minutes of birth. This means they are much less vulnerable to predators.",
                 "media": [
                     "https://www.youtube.com/embed/w4421AI_7CA?si=LQSeUthgNZVpvq1d"
                 ]
             }
         },
         {
-            "identifier": "Moving continents",
+            "identifier": "Why three groups?",
             "ott": "683263",
             "stop_wait": 120000,
             "template_data": {
                 "visible-transition_in": true,
-                "title": "Moving continents",
-                "window_text": ["The three groups of placental mammals are associated with different parts of the globe: South America, Africa and the North.",
-                { "visible-active_wait": true, "text": "The evolutionary history of the groups started to diverge around 90 million years ago at the same time as these continents were drifting apart. Below you can see what our planet looked like at that time and the regions where the three groups originated." }],
+                "title": "Why three groups?",
+                "window_text": ["The placental mammals form three groups. There's a fascinating reason for this, and it's about how continents moved in the past.",
+                { "visible-active_wait": true, "text": "The three groups are associated with South America, Africa and the Northern hemisphere. Scientists have found that the groups started to diverge around 90 million years ago, at the same time as these landmasses were drifting apart. Below you can see what our planet looked like at that time, and the regions where the three groups originated." }],
                 "media": [
                     { "visible-active_wait": true, "url": "mammals/continents.jpeg" }
                 ]
