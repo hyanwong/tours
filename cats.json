@@ -58,7 +58,7 @@
                 "title": "Largest cat",
                 "window_text": [
                     "The largest living species of cat is...",
-                    { "visible-active_wait": true, "text": "... the tiger. Specifically, the subspecies called the Amur tiger (also known as the Siberian tiger), can weigh over 4 times as much as an adult human. " }
+                    { "visible-active_wait": true, "text": "... the tiger. Specifically, the subspecies called the Amur tiger (also known as the Siberian tiger), can weigh over 300 kg, that's 4 times as much as an adult human. " }
                 ],
                 "media": [
                     { "visible-active_wait": true, "url": "https://commons.wikimedia.org/wiki/File:Amur_(or_Siberian)_tigers_(Panthera_tigris_altaica)_(48907981646).jpg" }
@@ -71,20 +71,52 @@
             "template_data": {
                 "visible-transition_in": false,
                 "title": "Roaring",
-                "window_text": "Of all the cats, only the lion, tiger, jaguar and leopard have the ability to roar. Though no other cats can roar, many of them can purr, and not only the domesticated species!",
+                "window_text": "Of all the cats, only the lion, tiger, jaguar and leopard have the ability to roar.",
                 "media": [
                     "https://www.youtube.com/embed/zgxUh6RYo7Y"
                 ]
             }
         },
         {
-            "identifier": "Cats",
-            "ott": "@_ancestor=563159=397138",
-            "qs_opts": "highlight=fan:rgb(130,130,247)@=563159",
+            "identifier": "Purr",
+            "ott": "563159",
+            "template_data": {
+                "visible-transition_in": false,
+                "title": "Purring",
+                "window_text": "Although no other cats can roar, many of them can purr, like a family pet!",
+                "media": [
+                    "https://www.youtube.com/embed/wkRcwGdaeSE"
+                ]
+            }
+        },
+        {
+            "identifier": "All the Cats",
+            "ott": "563159",
+            "qs_opts": "highlight=fan:rgb(130,130,247)@=563159&into_node=max",
             "template_data": {
                 "visible-transition_in": true,
                 "title": "All the cats",
-                "window_text": "Overall there are around 40 species of cat and they share a common ancestor about 14 million years ago. Their closest relatives are the Hyenas. There's a lot more to explore!"
+                "window_text": "Overall there are around 40 species of cat and they share a common ancestor about 14 million years ago."
+            }
+        },
+        {
+            "identifier": "Cat relatives",
+            "ott": "397138",
+            "qs_opts": "highlight=fan:rgb(130,130,247)@=563159&into_node=max",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Cat relatives",
+                "window_text": "The closest relatives of the cats are the hyenas."
+            }
+        },
+        {
+            "identifier": "Carnivora",
+            "ott": "44565",
+            "qs_opts": "highlight=fan:rgb(130,130,247)@=563159",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Carnivora",
+                "window_text": "The cats and hyenas together are part of a much larger group, the Carnivora. This group also contains dogs, foxes, bears and many others. With our complete tree of life explorer, you can zoom in and out to see them all and much more."
             }
         }
     ]
