@@ -16,7 +16,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Our family",
-                "window_text": ["This is our family, the great apes, known as Hominids. We are humans and the other great apes are all our cousins. We all share an ancestor - an extinct species, like a grandparent who is no longer with us."]
+                "window_text": ["This is our family, the great apes, known as Hominids. We are humans and the other great apes are all our cousins. We all share an ancestor - an extinct species, like a great-grandparent who is no longer with us."]
             }
         },
         {
@@ -49,7 +49,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Lungfish",
-                "window_text": ["We're more closely related to some fish than others. ",{ "visible-active_wait": true, "text": "Our closest fish relatives are the lungfish. It would be tempting to think that lungs evolved here but actually the first lungs appeared much earlier. The evolution of the lung is a more complicated story that we'll save for another tour."}
+                "window_text": ["We're more closely related to some fish than others. ",{ "visible-active_wait": true, "text": "Our closest fish relatives are the lungfish. It would be tempting to think that lungs evolved here but actually the first lungs appeared much earlier. The evolution of the lung is a more complicated story that we'll save for another tour."},{ "visible-active_wait": true, "text": "Let's take a closer look at one of the lungfish"}
                     ]
             }
         },
@@ -61,29 +61,42 @@
                 "visible-transition_in": true,
                 "title": "African Lungfish",
                 "media": [
-                    { "visible-active_wait": true, "url": "https://www.youtube.com/embed/dgXuuMlZRqs" }
+                    "https://www.youtube.com/embed/dgXuuMlZRqs"
                 ]
             }
         },
         {
-            "identifier": "All animals",
+            "identifier": "Make a guess",
+            "ott": "4940726",
+            "transition_in":"fly",
+            "template_data": {
+                "visible-transition_in": true,
+                "title": "Make a guess",
+                "window_text": ["If there are 5 thousand MAMMAL species, how many species of ANIMAL do you think there are in total?","5 thousand, 14 thousand, 140 thousand, 1.4 million or over 1.4 million?","Press next to find out the answer."
+                ]
+            }
+        },
+        {
+            "identifier": "Make a guess 2",
             "ott": "691846",
             "transition_in":"fly",
             "template_data": {
                 "visible-transition_in": true,
-                "title": "All animals",
-                "window_text": ["If there are 5000 mammal species, how many animal species do you think there are?",{ "visible-active_wait": true, "text": "Over 1.4 million, so the mammals are about a third of 1% of all species of animal."}
+                "title": "Make a guess: answer",
+                "window_text": ["If there are 5 thousand MAMMAL species, how many species of ANIMAL do you think there are in total?","5 thousand, 14 thousand, 140 thousand, 1.4 million or over 1.4 million?",{ "visible-transition_in": true, "text": "..."},{ "visible-active_wait": true, "text": "The answer is... over 1.4 million, so the mammals are about a third of 1% of all species of animal."}
                 ]
             }
         },
         {
             "identifier": "Sponges",
             "ott": "67819",
+            "qs_opts": "into_node=max",
             "transition_in":"fly",
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Sponges",
-                "window_text": "There are even more different species of sponge than there are mammal!"
+                "window_text": "There are even more different species of sponge than there are mammal!",
+                "comment": "We'd like this to zoom into the node"
             }
         },
         {
@@ -93,7 +106,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Complete tree",
-                "window_text": ["The complete tree of all known life on earth includes a lot more than just animals!  There are plants, fungi, bacteria, and a host of other wierd things that don't fall into any of those groups." , { "visible-active_wait": true, "text": "It would take a person's entire working life just to spend two and a half minutes looking at each species."}]
+                "window_text": ["The complete tree of all known life on earth includes a lot more than just animals!  There are plants, fungi, bacteria, and a host of other wierd things that don't fall into any of those groups." , { "visible-active_wait": true, "text": "If you spent just to spend two and a half minutes looking at each species, you'd be busy for your entire working life. That's this is a work in progress and scientists are continually making improvements to everything you see here!"}]
             }
         }
     ]
