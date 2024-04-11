@@ -6,7 +6,7 @@
 
     "tourstop_shared": {
         "fly_in_speed": 0.6,
-        "stop_wait": 10000,
+        "stop_wait": 25000,
         "template_data": {
             "visible-transition_in": true,
             "visible-transition_in_wait": true
