@@ -16,7 +16,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Frogs, Toads and their relatives",
-                "window_text": "The amphibians are a huge group that contains caecilians, salamanders, newts, frogs and toads. In this tour we'll look at the frogs and toads, which make up more than three quarters of all amphibian species."
+                "window_text": "There are more than 8000 species of amphibians. They include the caecilians, salamanders, newts, frogs and toads. Over three quarters are frogs and toads, and they're the focus of this tour."
             }
         },
         {
@@ -26,7 +26,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "What's in a name?",
-                "window_text": "The scientific name for frogs and toads is Anura, which means “without tail”. As you will see on this tour, there isn't really a scientific difference between “frogs” and “toads”.",
+                "window_text": "The scientific name for frogs and toads is Anura, which means “without a tail”. Think of a frog or toad compared to something like a salamander, and you'll see why it's a good name.",
                 "comment": "This is a public domain image"
             }
         },
@@ -37,7 +37,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "A tale of tails",
-                "window_text": "No fully grown adult frogs or toads have a tail. Even the so called “tailed frogs” don't really have a tail. Male tailed frogs have something which looks like a tail, but actually it is used for reproduction, not for swimming!",
+                "window_text": "In fact, no fully grown adult frogs or toads have a tail. Even the so called “tailed frogs” don't really have a tail. Male tailed frogs have something which looks like a tail, but actually it is used for reproduction, not for swimming!",
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Ascaphus_truei_web.jpg"
                 ]
@@ -64,7 +64,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Frog or Toad?",
-                "window_text": "You might think that the pumpkin toadlet is a “toad”, but it's not as simple as that. Frogs and toads aren't clearly separated into two different branches of the tree of life. Although we often call anurans “toads” if they have a warty apparance, it's quite arbitrary. The pumpkin toadlet isn't very warty! It isn't really a toad any more than it's a frog.",
+                "window_text": "Although you might think that the pumpkin toadlet is a “toad”, it's not as simple as that. Frogs and toads aren't clearly separated into two different branches of the tree of life. We often use “toads” for species that have a warty apparance, but it's pretty arbitrary. The pumpkin toadlet isn't very warty! It isn't really a toad any more than it's a frog.",
                 "media": [
                     "frogs/Various_frogs_and_toads_trimmed.jpeg"
                 ]
@@ -111,7 +111,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Chytrid fungi, a threat to frogs",
-                "window_text": ["One major threat to harlequin frogs is an infectious disease caused by chytrid fungi. Pictured here is the skin of an infected harlequin frog, the arrows point to the 'zoospores' through which in chytrid fungi is spread."],
+                "window_text": ["One major threat is an infectious disease caused by an species from a radically different part of the tree of life: a chytrid fungus. The picture below is the skin of a infected harlequin frog, with arrows showing fungal “zoospores”, which is how the disease spreads."],
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Chytridiomycosis2.jpg"
                 ]
@@ -124,7 +124,7 @@
             "template_data": {
                 "visible-transition_in": true,
                 "title": "Conservation",
-                "window_text": ["Scientists have brought many wild populations of harlequin frogs and other frogs and toads into captivity to protect them from the chytrid disease and prevent total extinction."],
+                "window_text": ["Scientists have brought many wild populations of harlequin frogs and other anurans into captivity to protect them from the chytrid disease and prevent total extinction."],
                 "media": [
                     "https://commons.wikimedia.org/wiki/File:Atelopus_limosus_male,_highland_color_form_(1).jpg"
                 ]
