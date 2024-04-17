@@ -7,11 +7,7 @@
     "tourstop_shared": {
         "fly_in_speed": 0.8,
         "stop_wait": 25000,
-        "qs_opts": "highlight=fan:rgb(130,130,247)@=962396&highlight=path:rgb(130,130,247)@=244265@=962396
-        &highlight=fan:rgb(126,198,199)@=746703&highlight=path:rgb(126,198,199)@_ancestor=746703=847764@=746703
-        &highlight=fan:rgb(235,134,131)@=847764&highlight=path:rgb(235,134,131)@_ancestor=746703=847764@=847764
-        &highlight=fan:rgb(162,252,144)@Boreoeutheria&highlight=path:rgb(162,252,144)@=683263@Boreoeutheria
-        &highlight=fan:rgb(187,105,195)@=16033&highlight=path:rgb(187,105,195)@=229558@=16033"
+        "qs_opts": "highlight=fan:rgb(130,130,247)@=962396&highlight=path:rgb(130,130,247)@=244265@=962396&highlight=fan:rgb(126,198,199)@=746703&highlight=path:rgb(126,198,199)@_ancestor=746703=847764@=746703&highlight=fan:rgb(235,134,131)@=847764&highlight=path:rgb(235,134,131)@_ancestor=746703=847764@=847764&highlight=fan:rgb(162,252,144)@Boreoeutheria&highlight=path:rgb(162,252,144)@=683263@Boreoeutheria&highlight=fan:rgb(187,105,195)@=16033&highlight=path:rgb(187,105,195)@=229558@=16033"
     },
     "tourstops": [
         {
